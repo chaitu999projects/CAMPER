@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.home-page-container {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url("img/homeimage.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.another-background-container {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url('places/image4.jpeg');
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 1.5rem;
+}
